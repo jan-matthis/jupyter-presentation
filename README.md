@@ -18,4 +18,4 @@ To use, simply include and execute a cell in the notebook that loads the CSS fil
 ```
 
 Note that the file `jupyer.css` is a general stylesheet for notebooks, that
-can also be used as a default. See [jupyter-css]() for instructions.
+can also be used as a default. See [jupyter-css](http://github.com/jan-matthis/jupyter-css) for instructions.
