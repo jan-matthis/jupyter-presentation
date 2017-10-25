@@ -1,0 +1,69 @@
+/*
+
+    Name:       material
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+
+    Original material color scheme by Mattia Astorino (https://github.com/equinusocio/material-theme)
+
+*/
+
+.CodeMirror {
+  font-size: 1.0em !important;
+  line-height: 1.7em !important;
+}
+
+/* neo theme for codemirror */
+
+/* Color scheme */
+
+.CodeMirror {
+  background-color:#ffffff;
+  color:#2e383c;
+  line-height:1.4375;
+}
+.cm-comment { color:#75787b; }
+.cm-keyword, .cm-property { color:#1d75b3; }
+.cm-atom,.cm-number { color:#75438a; }
+.cm-node,.cm-tag { color:#9c3328; }
+.cm-string { color:#b35e14; }
+.cm-variable,.cm-qualifier { color:#047d65; }
+
+
+/* Editor styling */
+
+pre {
+  padding:0;
+}
+
+.CodeMirror-gutters {
+  border:none;
+  border-right:10px solid transparent;
+  background-color:transparent;
+}
+
+.CodeMirror-linenumber {
+  padding:0;
+  color:#e0e2e5;
+}
+
+.CodeMirror-guttermarker { color: #1d75b3; }
+.CodeMirror-guttermarker-subtle { color: #e0e2e5; }
+
+.CodeMirror-cursor {
+  width: 2px;
+  border: 0;
+  background: rgba(155,157,162,0.37);
+  z-index: 1;
+}
+
+.edit_mode .cell.selected .CodeMirror-focused.cm-fat-cursor {
+  background-color: #FFF !important;
+}
+/* Jupyter cell is in insert mode when code mirror */
+.edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
+  background-color: #FFF !important;
+}
+
+.CodeMirror-activeline-background {
+    background-color: blue;
+}

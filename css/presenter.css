@@ -1,0 +1,31 @@
+#header {
+    border: none !important;
+}
+
+#header-container, .cell {
+    display: none !important;
+}
+
+.nav.navbar-nav {
+    opacity: 0.0;
+}
+.nav.navbar-nav:hover {
+    opacity: 1.0;
+}
+
+.cell.selected {
+    display: block !important;
+    border: none;
+}
+
+.cell::before, .cell.selected::before {
+    background: #fff !important;
+}
+
+#notification_trusted {
+    display: none !important;
+}
+
+.end_space {
+    display: none !important;
+}

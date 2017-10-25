@@ -1,0 +1,21 @@
+h1, .big {
+  font-size: 3.2em !important;
+  line-height: 1.6em !important;
+}
+
+.highlight {
+  color: blue;
+}
+
+.cell {
+  font-size: 1.3em !important;
+}
+
+.cell p {
+  font-size: 1.3em !important;
+}
+
+blockquote {
+    margin: 1em 10em !important;
+    line-height: 2em !important;
+}
